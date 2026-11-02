@@ -1,0 +1,22 @@
+* { box-sizing: border-box; }
+body { font-family: Segoe UI, Arial, sans-serif; background: #f2f4f8; margin: 0; color: #222; }
+.navbar { background: #1f3a5f; color: #fff; padding: 14px 30px; display: flex; justify-content: space-between; align-items: center; }
+.navbar h1 { margin: 0; font-size: 20px; }
+.navbar a { color: #fff; text-decoration: none; margin-left: 15px; }
+.container { max-width: 1000px; margin: 25px auto; padding: 0 15px; }
+.card { background: #fff; border-radius: 8px; padding: 22px; box-shadow: 0 2px 8px rgba(0,0,0,.08); margin-bottom: 20px; }
+.stats { display: flex; gap: 15px; margin-bottom: 20px; }
+.stat { flex: 1; background: #fff; border-radius: 8px; padding: 18px; text-align: center; box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+.stat b { display: block; font-size: 24px; color: #1f3a5f; }
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: 10px; text-align: left; border-bottom: 1px solid #e3e6ec; }
+th { background: #1f3a5f; color: #fff; }
+tr:hover td { background: #f7f9fc; }
+input[type=text], input[type=password], input[type=number] { width: 100%; padding: 10px; margin: 6px 0 14px; border: 1px solid #ccd; border-radius: 5px; }
+.btn { display: inline-block; padding: 8px 14px; border: none; border-radius: 5px; background: #1f3a5f; color: #fff; text-decoration: none; cursor: pointer; font-size: 14px; }
+.btn.green { background: #2e8b57; } .btn.red { background: #c0392b; } .btn.gray { background: #7f8c8d; }
+.msg { background: #dff5e3; color: #1d6b30; padding: 10px; border-radius: 5px; margin-bottom: 15px; }
+.error { background: #fde2e0; color: #a02a1f; padding: 10px; border-radius: 5px; margin-bottom: 15px; }
+.login-box { max-width: 380px; margin: 90px auto; }
+.toolbar { display: flex; justify-content: space-between; margin-bottom: 15px; gap: 10px; }
+.toolbar form { display: flex; gap: 8px; } .toolbar input { margin: 0; }
